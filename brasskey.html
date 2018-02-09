@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Brass Keys-We have made Keys for over 600 Cities and Towns across America! ALL of our keys come giftboxed.Our Keys come in three colors, Antique Silver, Antique Gold, and Antique Bronzed.">
+  <meta name="author" content="">
+  <meta name="Keywords" content="key, keys, city, pins, lapel, badge, badges, mini key, coin, coins, cuff links, Name tags, ceremonial keys, city keys, keys to the city, lapel pins, city pins, custom lapel pins, american made pins, union made pins" />
+  <meta name="robots" content="index, follow">
+
+  <link rel="stylesheet" href="style.css">
+
+  <title>KeytoCity.com-Brass Keys</title>
+  <style type="text/css">
+  <!--
+  body {
+  	background-color: #185EA3;
+  }
+  a:link {
+  	color: #FFC004;
+  }
+  .style4 {font-size: 18px}
+  .style5 {
+  	color: #A1872A;
+  	font-size: 30px;
+  }
+  .style6 {font-size: 18px; color: #A1872A; }
+  -->
+  </style>
+  <style type="text/css">
+
+  #slideshowContainer{
+  width: 300px;
+  height: auto;
+  }
+
+  #numberDiv a{
+  font: bold 14px Arial;
+  text-decoration: none;
+  }
+
+  #backforthbuttons{
+  margin-top: 6px;
+  }
+
+  .style7 {font-size: 14px}
+  a:visited {
+  	color: #333333;
+  }
+  .style8 {
+  	color: #FFFFFF;
+  	font-size: 18px;
+  }
+  .style9 {
+  	color: #185EA3;
+  	font-weight: bold;
+  	font-size: 18px;
+  }
+  </style>
+
+
+<script type="text/javascript">
+/* uncomment for slide
+// Index It Image Slideshow script- By JavaScriptKit.com
+// For this and over 400+ free scripts, visit JavaScript Kit- http://www.javascriptkit.com/
+// This notice must stay intact for use
+
+//Specify images for slideshow:
+//["Image Path", "Optional Image link"]
+
+var numberslide=new Array()
+numberslide[0]=["images/brass keys/AdamsvilleKey2.jpg", ""]
+numberslide[1]=["images/brass keys/Alphakey06.jpg", ""]
+numberslide[2]=["images/brass keys/BeeBeeARKKEY.jpg", ""]
+numberslide[3]=["images/brass keys/BeechMtNCKEY.jpg", ""]
+numberslide[4]=["images/brass keys/BIGRAPIDSKEY.jpg", ""]
+numberslide[5]=["images/brass keys/BLACKSTONEKEY.jpg", ""]
+numberslide[6]=["images/brass keys/BlythevilleARKEY.jpg", ""]
+numberslide[7]=["images/brass keys/brewqtonalkey.jpg", ""]
+numberslide[8]=["images/brass keys/butlerGAkey.jpg", ""]
+numberslide[9]=["images/brass keys/CajahsMTNC.jpg", ""]
+numberslide[10]=["images/brass keys/CaliforniaCityKey.jpg", ""]
+numberslide[11]=["images/brass keys/Camdenarkkey.jpg", ""]
+numberslide[12]=["images/brass keys/CentervilleTNKey.jpg", ""]
+numberslide[13]=["images/brass keys/dalycityCAKey.jpg", ""]
+numberslide[14]=["images/brass keys/EastPointKey.jpg", ""]
+numberslide[15]=["images/brass keys/GENTRYARKKEY.jpg", ""]
+numberslide[16]=["images/brass keys/GlobeAZKEYS.jpg", ""]
+numberslide[17]=["images/brass keys/GREATBENDKEYREV.jpg", ""]
+numberslide[18]=["images/brass keys/hesstonkskey.jpg", ""]
+numberslide[19]=["images/brass keys/HillsdaleMIKey.jpg", ""]
+numberslide[20]=["images/brass keys/humboldtkeyA.jpg", ""]
+numberslide[21]=["images/brass keys/HumboltTNkey.jpg", ""]
+numberslide[22]=["images/brass keys/JayFloridaKey.jpg", ""]
+numberslide[23]=["images/brass keys/LancasterCAKEY.jpg", ""]
+numberslide[24]=["images/brass keys/LansingMIKey.jpg", ""]
+numberslide[25]=["images/brass keys/MiltonGAKey.jpg", ""]
+numberslide[26]=["images/brass keys/oswegoKSkey.jpg", ""]
+numberslide[27]=["images/brass keys/palmettokey.jpg", ""]
+numberslide[28]=["images/brass keys/Princetonkey.jpg", ""]
+numberslide[29]=["images/brass keys/RAYMOREKEY.jpg", ""]
+numberslide[30]=["images/brass keys/REDRIVERNMKEY.jpg", ""]
+numberslide[31]=["images/brass keys/SandySpringsGAKey.jpg", ""]
+numberslide[32]=["images/brass keys/SEARCYKEY.jpg", ""]
+numberslide[33]=["images/brass keys/SewallsPointFLKey.jpg", ""]
+numberslide[34]=["images/brass keys/southriverNJkeyG.gif", ""]
+numberslide[35]=["images/brass keys/Springhillkey.jpg", ""]
+numberslide[36]=["images/brass keys/TellurideCOKey.jpg", ""]
+numberslide[37]=["images/brass keys/Troykey.jpg", ""]
+numberslide[38]=["images/brass keys/WhartonNJKey.jpg", ""]
+numberslide[39]=["images/brass keys/ZolfoSprgsFLKey.jpg", ""]
+numberslide[40]=["images/brass keys/LingleKey1.jpg", ""]
+numberslide[41]=["images/brass keys/BuchannonWVAKey.jpg", ""]
+numberslide[42]=["images/brass keys/CentralLAKey.jpg", ""]
+numberslide[43]=["images/brass keys/ElkinsWVAKey.jpg", ""]
+
+var mylinktarget="" //specify optional link target
+var mylinkcolor="navy" //specify default color of number links
+var mylinkcolorSelected="#A1872A" //specify color of selected links
+
+var imgborderwidth=3 //specify border of image slideshow
+
+/////Stop customizing here////////////////
+
+var preloadit=new Array()
+for (i=0;i<numberslide.length;i++){
+preloadit[i]=new Image()
+preloadit[i].src=numberslide[i][0]
+}
+
+var currentindex=""
+
+function changeslides(which){
+var imghtml=""
+currentindex=(which=="initial")? 0 : parseInt(which)
+var mode=(which=="initial")? "initial" : ""
+var which=(mode=="initial")? numberslide[0] : numberslide[which]
+if (which[1]!="")
+imghtml='<a href="'+which[1]+'" target="'+mylinktarget+'">'
+imghtml+='<img src="'+which[0]+'" border="'+imgborderwidth+'">'
+if (which[1]!="")
+imghtml+='</a>'
+
+if (mode=="initial")
+document.write('<div>'+imghtml+'</div>')
+else{
+document.getElementById("imagecontainer").innerHTML=imghtml
+changecolors()
+}
+}
+
+function createnumbers(){
+document.write('<a href="javascript:changeslides(0)" style="color:'+mylinkcolorSelected+'">0</a> ')
+for (i=1; i< numberslide.length; i++)
+document.write('<a href="javascript:changeslides(\''+i+'\')">'+i+'</a> ')
+}
+
+function changecolors(){
+var numberobj=document.getElementById("numberDiv")
+numberlinks=numberobj.getElementsByTagName("A")
+for (i=0; i<=currentindex; i++)
+numberlinks[i].style.color=mylinkcolorSelected
+for (i=currentindex+1; i<numberslide.length; i++)
+numberlinks[i].style.color=mylinkcolor
+}
+
+function goforward(){
+if (currentindex<numberslide.length-1)
+changeslides(currentindex+1)
+}
+
+function goback(){
+if (currentindex!=0)
+changeslides(currentindex-1)
+}
+*/
+</script>
+</head>
+
+<body>
+<div align="center">
+  <table width="200" border="15" cellpadding="7" cellspacing="0" bordercolor="#FF0000" bgcolor="#FFFFFF">
+    <tr>
+      <td bgcolor="#FFFFFF"><table width="201" border="0" cellpadding="0" cellspacing="0">
+        <!--DWLayoutTable-->
+        <tr>
+          <td height="130" colspan="2" valign="top"><div align="center"><img src="images/NEWlogo-template.jpg" width="635" height="170" alt="key to city mfg. co." /></div></td>
+        </tr>
+        <tr>
+          <td width="150" height="84" valign="top" bgcolor="#185EA3"><div align="center">
+             <ul class="navbar-left nav-pills nav-stacked">
+                <li class="hvr-pulse"><a class="nav hvr-pulse" href="index.html">Home</a></li>
+                    <li class="hvr-pulse"><a class="nav hvr-pulse" href="aboutus.html">About Us</a></li>
+                    <li class="hvr-pulse"><a class="nav hvr-pulse" href="contact us.html">Contact Us</a></li>
+                    
+                   
+
+                    <p><span class="style10">Products</span><br /></p>
+
+                    <li class="hvr-pulse"><a class="nav hvr-pulse" href="brasskey.html">Brass Keys</a></li>
+                    <li class="hvr-pulse"><a class="nav hvr-pulse" href="minikeys.html">Mini Keys</a></li>
+                    <li class="hvr-pulse"><a class="nav hvr-pulse" href="pins.html">Lapel Pins</a></li>
+                    <li class="hvr-pulse"><a class="nav hvr-pulse" href="coins.html">Coins</a></li>
+                    
+                    <li class="hvr-pulse"><a class="nav hvr-pulse" href="cufflinks.html">Cuff Links</a></li>
+                    
+                   
+            <p>              <a class="style10" href="testimonials.html">Customer <br />
+              Testimonials  </a></p>
+            </div></td>
+          <td width="622" bgcolor="#FFFFFF"><div align="center">
+            <table width="99%" border="0" cellpadding="3">
+              <tr>
+                <td width="499"><div align="center">
+                  <h1 align="center" class="style4 style5">Brass Keys</h1>
+                  <p align="center" class="style4 style5"><img src="images/NEWKEYSLOGO.jpg" width="216" height="72" alt="custom made keys" /></p>
+                  <h3 align="center" class="style6">We have made Keys for over 600 Cities and Towns across   America!</h3>
+                  <h3 align="center" class="style6"><strong>ALL</strong> of our keys come giftboxed.</h3>
+                  <div class="">
+                    <p>Our Keys come in three colors, Antique Silver, Antique Gold, and Antique Bronzed. They are very
+                      Beautiful in its own right, but possess an ageing antique and modern and professional look. Some colors go better with your logo than others.  We will be happy to offer our suggestions to you, on what would look the best. Each key is flat on the back, making it ideal to mount on a plaque, with an inscription for the receiver.  Each key is gift boxed, and also has an eyelet in the handle, for placing a lanyard so you can hang the key around someone’s neck. </p>
+
+                      <img src="images/brasskey/Shelbyvillekeyboxed.jpg" alt="Shelbyvillekeyboxed">
+                      (KEY IN BOX)
+
+                      <h2>ANTIQUE BRONZED KEYS</h2>
+                        <img width="400" src="images/brasskey/ChattanoogaKeypicture.jpg" alt="ChattanoogaKeypicture">
+                        <img width="400" src="images/brasskey/SeabrookBronzed.jpg" alt="SeabrookBronzed">
+
+                      <h2>ANTIQUE GOLD</h2>
+                        <img width="400" src="images/brasskey/PellCityGold.jpg" alt="PellCityGold">
+
+                      <h2>ANTIQUE SILVER</h2>
+                        <img width="400" src="images/brasskey/MTAiryNC.jpg" alt="MTAiryNC">
+                        <img width="400" src="images/brasskey/MinneolaNY.jpg" alt="MinneolaNY">
+                        <img width="400" src="images/brasskey/StJoSilverKey.jpg" alt="StJoSilverKey">
+
+                      <h2>MORE KEYS</h2>
+                        <img width="400" src="images/brasskey/terreboonekey.jpg" alt="terreboonekey">
+                        <img width="400" src="images/brasskey/eldoradokey.jpg" alt="eldoradokey">
+                        <img width="500" src="images/brasskey/COLORSOFKEYS copy.jpg" alt="COLORSOFKEYS copy">
+
+                        <img src="images/brasskey/PortLavaGoldKey.jpg" alt="key" width="400" />
+                        <img src="images/brasskey/RoanokeTX.jpg" alt="key" width="400" />
+                        
+                        <img src="images/brasskey/St.josephkeysharp.jpg" alt="key" width="400" />
+                        
+                        <img src="images/brasskey/WheelingKey.jpg" alt="key" width="400" />
+                        <img src="images/brasskey/PlaqueminmeBronzed.jpg" alt="key" width="400" />
+
+
+                  </div></td>
+              </tr>
+            </table>
+          </div>            </td>
+        </tr>
+        <tr>
+          <td height="84" valign="top" bgcolor="#185EA3" class="style4"></td>
+          <td bgcolor="#185EA3" class="style4"><div align="center">
+            <p class="style7"><font face="Arial" color="#ffffff">KeytoCity.com &nbsp; |&nbsp;5418 Marion Avenue&nbsp; |&nbsp;Chattanooga, Tennessee 37412<br />
+&nbsp;&nbsp; 1-888-673-1111 ( toll free) or 423-280-2881  |&nbsp;423-475-5833 (Fax)  |&nbsp;<br />
+<a href="mailto:KEYTOCITY@GMAIL.COM">E-mail Us</a><br />
+<br />
+                Copyright 
+              &copy; 2017 KeytoCity.com &nbsp; All rights reserved</font></p>
+            </div></td>
+        </tr>
+      </table></td>
+    </tr>
+  </table>
+</div>
+      <!-- Start of StatCounter Code for Default Guide -->
+  <script type="text/javascript">
+  var sc_project=11390547; 
+  var sc_invisible=0; 
+  var sc_security="f0789882"; 
+  var scJsHost = (("https:" == document.location.protocol) ?
+  "https://secure." : "http://www.");
+  document.write("<sc"+"ript type='text/javascript' src='" +
+  scJsHost+
+  "statcounter.com/counter/counter.js'></"+"script>");
+  </script>
+  <noscript><div class="statcounter"><a title="real time web
+  analytics" href="http://statcounter.com/"
+  target="_blank"><img class="statcounter"
+  src="//c.statcounter.com/11390547/0/f0789882/0/" alt="real
+  time web analytics"></a></div></noscript>
+  <!-- End of StatCounter Code for Default Guide -->
+</body>
+</html>
